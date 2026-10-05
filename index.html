@@ -8,7 +8,8 @@
 
 <meta property="og:title" content="Daniel & Jeonghye Wedding" />
 <meta property="og:description" content="저희의 첫 페이지를 함께 축복해주세요." />
-<meta property="og:image" content="https://leejw168-hub.github.io/Wedding-invitation/poster.jpg" />
+<meta property="og:image" content="https://leejw168-hub.github.io/Wedding-invitation-Korea/poster.jpg" />
+<meta property="og:url" content="https://leejw168-hub.github.io/Wedding-invitation-Korea/" />
 <meta property="og:type" content="website" />
 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;600&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
@@ -487,6 +488,11 @@ footer {
       <p class="gift-name">국민은행 &nbsp;·&nbsp; 김정혜</p>
       <button class="gift-copy-btn" onclick="copyOnlyNumbers()">복사하기</button>
     </div>
+    <div class="gift-card reveal d3">
+      <p class="gift-flag">🇺🇸 &nbsp; UNITED STATES</p>
+      <p class="gift-name">Venmo / Zelle</p>
+      <p class="gift-note" style="font-size:13px;margin-top:12px;">미국 축의 방법은 기존 안내를 참고해주세요.</p>
+    </div>
     <p class="gift-note reveal d4">
       여러분의 따뜻한 마음이<br>저희에게 가장 큰 선물입니다.<br><br>
       <span style="font-size:13px;color:#ccc;font-style:normal;font-family:'Cinzel',serif;letter-spacing:2px;">
@@ -540,7 +546,7 @@ function showTab(id, btn) {
   window.scrollTo({top:document.getElementById('nav-tabs').offsetTop,behavior:'smooth'});
   const revealEls = panel.querySelectorAll('.reveal');
   revealEls.forEach(el => el.classList.remove('go'));
-  requestAnimationFrame(() => requestAnimationFrame(() => revealEls.forEach(el => el.classList.add('go')));
+  requestAnimationFrame(() => requestAnimationFrame(() => revealEls.forEach(el => el.classList.add('go'))));
 }
 
 window.addEventListener('load', () => {
